@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#define &lt;#DataCachesPath#&gt; NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject</string>
+	<string>#define &lt;#kDataCachesPath#&gt; NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).firstObject</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5B29D8A2-9505-4E4D-8DBD-B502B3CF7274</string>
 	<key>IDECodeSnippetLanguage</key>

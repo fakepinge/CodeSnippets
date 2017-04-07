@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>g</string>
+	<string>HFTUser</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**&lt;#注释#&gt;*/</string>
+	<string>[[HFTUser alloc] initWithCacheKey:kUserInfoKey];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B39F3724-E4DF-4A84-8F83-1319D0802055</string>
+	<string>D208A9A7-7F08-4D23-A6BA-38008A83F6A6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>属性注释一行</string>
+	<string>HFTUser</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>属性注释一行</string>
+	<string>HFTUser</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

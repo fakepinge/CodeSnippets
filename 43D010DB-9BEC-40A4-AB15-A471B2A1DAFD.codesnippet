@@ -9,10 +9,8 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (NSMutableArray *) &lt;#array#&gt; {
-    
+	<string>- (NSMutableArray *)&lt;#array#&gt; {
     if (!_&lt;#array#&gt;) {
-        
         _&lt;#array#&gt; = @[].mutableCopy;
     }
     return _&lt;#array#&gt;;

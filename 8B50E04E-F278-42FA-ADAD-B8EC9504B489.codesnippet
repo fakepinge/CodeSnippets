@@ -10,23 +10,15 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - 注册通知
-- (void) registerNotification {
-    // 直播成功通知
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(liveSuccess) name:LiveCourseSuccess object:nil];
-    // 直播失败通知
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(liveFaild) name:LiveCourseFaild object:nil];
-    // 关闭直播转圈通知
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dismissSVNProgressView) name:LiveCourseCloseSVNProgressView object:nil];
+- (void)registerNotification {
+    // &lt;#注释#&gt;
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#method#&gt;) name:&lt;#name#&gt; object:nil];
 }
 
 #pragma mark - 注销通知
-- (void) cancelNotification {
-    // 注销直播成功通知
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:LiveCourseSuccess object:nil];
-    // 注销直播失败通知
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:LiveCourseFaild object:nil];
-    // 关闭直播转圈通知
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:LiveCourseCloseSVNProgressView object:nil];
+- (void)cancelNotification {
+    // &lt;#注释#&gt;
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:&lt;#name#&gt; object:nil];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8B50E04E-F278-42FA-ADAD-B8EC9504B489</string>

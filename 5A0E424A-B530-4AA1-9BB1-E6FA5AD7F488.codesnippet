@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSString *const CellIdentifier = @"&lt;#cellIdentifier#&gt;";</string>
+	<string>NSString *const kCellIdentifier = @"&lt;#cellIdentifier#&gt;";</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5A0E424A-B530-4AA1-9BB1-E6FA5AD7F488</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -17,9 +17,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>三行注释</string>
+	<string>属性注释多行</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>三行注释</string>
+	<string>属性注释多行</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -9,9 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - 初始化子控件
-- (void) setupViews {
-    
+	<string>#pragma mark - 初始化界面
+- (void)createUI {
     
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

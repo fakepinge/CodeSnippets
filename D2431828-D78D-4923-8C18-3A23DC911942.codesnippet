@@ -9,9 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - 布局子控件
-- (void) setupViewConstraints {
-    
+	<string>#pragma mark - 布局界面
+- (void)createConstraints {
     __weak typeof(self) weakSelf = self;
     
 }
