@@ -11,10 +11,10 @@
 	<key>IDECodeSnippetContents</key>
 	<string>// &lt;#注释#&gt;
 typedef NS_ENUM(NSUInteger, &lt;#Type#&gt;) {
-    &lt;#Type#&gt; = 0,     // &lt;#类型#&gt;
     &lt;#Type#&gt; = 1,     // &lt;#类型#&gt;
     &lt;#Type#&gt; = 2,     // &lt;#类型#&gt;
-    &lt;#Type#&gt; = 3      // &lt;#类型#&gt;
+    &lt;#Type#&gt; = 3,     // &lt;#类型#&gt;
+    &lt;#Type#&gt; = 4      // &lt;#类型#&gt;
 };</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5D93BB45-1767-4CF3-A398-EAB79D28748F</string>

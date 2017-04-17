@@ -11,17 +11,14 @@
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - UITableViewDataSource UITableViewDelegate
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    
     return &lt;#count#&gt;;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    
     return &lt;#count#&gt;;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
     return &lt;#height#&gt;;
 }
 

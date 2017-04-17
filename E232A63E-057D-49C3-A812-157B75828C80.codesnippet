@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - 初始化默认数据
-- (void)initDefaultData {
+- (void)createDefaultData {
     
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
