@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>HFTUser</string>
+	<string>sepview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>HFTUser *userInfo = [[HFTUser alloc] initWithCacheKey:kUserInfoKey];</string>
+	<string>    UIView *sepView = [[UIView alloc] init];
+    sepView.backgroundColor = UIColorFromRGB(0xdddddd);
+    [self addSubview:sepView];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D208A9A7-7F08-4D23-A6BA-38008A83F6A6</string>
+	<string>F1E38071-8D69-4937-A177-9553405730F0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>HFTUser</string>
+	<string>分割线view</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>HFTUser</string>
+	<string>分割线view</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
