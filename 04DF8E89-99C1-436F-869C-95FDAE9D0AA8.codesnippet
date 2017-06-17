@@ -12,8 +12,8 @@
 	<string>button = [UIButton buttonWithType:UIButtonTypeCustom];
 [button setBackgroundImage:[UIImage imageNamed:@"&lt;#name#&gt;"] forState:UIControlStateNormal];
 [button setTitle:@"&lt;#name#&gt;" forState:UIControlStateNormal];
-[button setTitleColor:UIColorFromRGB(0x&lt;#ffffff#&gt;) forState:UIControlStateNormal];
-[button setTitleColor:RGBCOLOR(&lt;#r#&gt;, &lt;#g#&gt;, &lt;#b#&gt;) forState:UIControlStateNormal];
+[button setTitleColor:HEX_RGB(0x&lt;#ffffff#&gt;) forState:UIControlStateNormal];
+[button setTitleColor:RGB(&lt;#r#&gt;, &lt;#g#&gt;, &lt;#b#&gt;) forState:UIControlStateNormal];
 button.titleLabel.font = [UIFont systemFontOfSize:kFontScaleSize_iPhone6(&lt;#15#&gt;)];
 [&lt;#self.contentView#&gt; addSubview:button];</string>
 	<key>IDECodeSnippetIdentifier</key>

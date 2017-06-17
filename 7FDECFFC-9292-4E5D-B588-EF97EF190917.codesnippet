@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>label = [[UILabel alloc] init];
 label.text = @"&lt;#title#&gt;";
-label.textColor = UIColorFromRGB(0x&lt;#ffffff#&gt;);
+label.textColor = HEX_RGB(0x&lt;#ffffff#&gt;);
 label.font = [UIFont systemFontOfSize:kFontScaleSize_iPhone6(&lt;#15#&gt;)];
 [&lt;#self.contentView#&gt; addSubview:label];</string>
 	<key>IDECodeSnippetIdentifier</key>
