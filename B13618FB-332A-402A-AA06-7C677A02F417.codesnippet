@@ -20,6 +20,13 @@
     [values addObject:[NSValue valueWithCATransform3D:CATransform3DMakeScale(1.0, 1.0, 1.0)]];
     animation.values = values;
     [view.layer addAnimation:animation forKey:nil];
+    view.transform = CGAffineTransformMakeScale(0.01f, 0.01f);
+    view.alpha = 0;
+    [UIView animateWithDuration:0.3 animations:^{
+        view.transform = CGAffineTransformMakeScale(1.0f, 1.0f);
+        view.alpha = 1;
+    }];
+
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
