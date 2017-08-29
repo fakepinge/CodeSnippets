@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>-initFrame</string>
+	<string>initFrame</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (instancetype)initWithFrame:(CGRect)frame {
@@ -34,7 +34,7 @@
 
 #pragma mark - 布局界面
 - (void)createConstraints {
-    __weak typeof(self) weakSelf = self;
+    LazyWeakSelf;
     
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

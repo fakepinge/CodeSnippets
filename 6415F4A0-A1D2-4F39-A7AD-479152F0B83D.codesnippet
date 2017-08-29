@@ -4,7 +4,7 @@
 <dict>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>&lt;key&gt;NSAppTransportSecurity&lt;/key&gt;

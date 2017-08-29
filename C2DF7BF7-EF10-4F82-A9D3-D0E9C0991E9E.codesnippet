@@ -6,15 +6,11 @@
 	<string>timer</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// 创建定时器
-self.&lt;#var#&gt; = [NSTimer scheduledTimerWithTimeInterval:1.5
-                                                            target:self
-                                              selector:@selector(&lt;#timerMethod#&gt;)
-                                                          userInfo:nil
-                                                           repeats:YES];
+self.&lt;#var#&gt; = [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector(&lt;#timerMethod#&gt;) userInfo:nil repeats:YES];
 // 取消
 [self.&lt;#var#&gt; invalidate];
 

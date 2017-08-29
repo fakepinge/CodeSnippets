@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tableViewDelegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - 配置tableViewDataSource
+- (void)configTableViewDataSource {
+	A2DynamicDelegate *dataSource = self.tableView.bk_dynamicDataSource;
+	LazyWeakSelf;
+	[dataSource implementMethod:@selector(numberOfSectionsInTableView:) withBlock:^NSInteger(UITableView *tableView) {
+        return &lt;#count#&gt;;
+	}];
+	[dataSource implementMethod:@selector(tableView:numberOfRowsInSection:) withBlock:^NSInteger(UITableView *tableView, NSInteger section) {
+        return &lt;#count#&gt;;
+	}];
+	[dataSource implementMethod:@selector(tableView:cellForRowAtIndexPath:) withBlock:^UITableViewCell *(UITableView *tableView, NSIndexPath *indexPath) {
+        &lt;#cell code#&gt;
+		return cell;
+	}];
+	self.tableView.dataSource = (id)dataSource;
+}
+
+#pragma mark - 配置tableViewDelegate
+- (void)configTableViewDelegate {
+	LazyWeakSelf;
+	A2DynamicDelegate *delegate = self.tableView.bk_dynamicDelegate;
+	[delegate implementMethod:@selector(tableView:heightForRowAtIndexPath:) withBlock:^CGFloat(UITableView *tableView, NSIndexPath *indexPath) {
+        return &lt;#height#&gt;;
+	}];
+	self.tableView.delegate = (id)delegate;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D75226B1-55A2-403C-91D0-D3D9F3E353AD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>tableView代理</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tableView代理</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

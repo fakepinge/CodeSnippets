@@ -6,12 +6,14 @@
 	<string>dataisNSString</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// 是字符串才处理 否则不处理
 if ([data isKindOfClass:[NSString class]]) {
-            
+    
+} else if ([data isKindOfClass:[NSDictionary class]]) {
+    
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0699CF66-A438-4774-830D-48497CA33A86</string>
