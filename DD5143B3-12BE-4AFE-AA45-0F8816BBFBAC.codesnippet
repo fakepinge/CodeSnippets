@@ -6,11 +6,7 @@
 	<string>gg</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
-		<string>CodeBlock</string>
-		<string>TopLevel</string>
-		<string>ClassInterfaceMethods</string>
-		<string>CodeExpression</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// &lt;#单行注释#&gt;</string>

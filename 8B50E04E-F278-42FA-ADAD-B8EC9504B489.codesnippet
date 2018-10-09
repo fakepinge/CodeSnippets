@@ -11,14 +11,12 @@
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - 注册通知
 - (void)registerNotification {
-    // &lt;#注释#&gt;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(&lt;#method#&gt;) name:&lt;#name#&gt; object:nil];
 }
 
 #pragma mark - 注销通知
 - (void)cancelNotification {
-    // &lt;#注释#&gt;
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:&lt;#name#&gt; object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8B50E04E-F278-42FA-ADAD-B8EC9504B489</string>
