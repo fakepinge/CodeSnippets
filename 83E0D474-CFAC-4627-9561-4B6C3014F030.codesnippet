@@ -12,7 +12,7 @@
 	<string>label = [[UILabel alloc] init];
 label.text = @"&lt;#title#&gt;";
 label.textColor = RGB(&lt;#R#&gt;, &lt;#G#&gt;, &lt;#B#&gt;);
-label.font = [UIFont systemFontOfSize:kFontScaleSize_iPhone6(&lt;#15#&gt;)];
+label.font = kFontSize6(&lt;#15#&gt;);
 [&lt;#self.contentView#&gt; addSubview:label];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>83E0D474-CFAC-4627-9561-4B6C3014F030</string>

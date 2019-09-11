@@ -14,7 +14,7 @@
 [button setTitle:@"&lt;#name#&gt;" forState:UIControlStateNormal];
 [button setTitleColor:HEX_RGB(0x&lt;#ffffff#&gt;) forState:UIControlStateNormal];
 [button setTitleColor:RGB(&lt;#r#&gt;, &lt;#g#&gt;, &lt;#b#&gt;) forState:UIControlStateNormal];
-button.titleLabel.font = [UIFont systemFontOfSize:kFontScaleSize_iPhone6(&lt;#15#&gt;)];
+button.titleLabel.font = kFontSize6(&lt;#15#&gt;);
 [&lt;#self.contentView#&gt; addSubview:button];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>04DF8E89-99C1-436F-869C-95FDAE9D0AA8</string>
