@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>initsep</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#注释#&gt;</string>
+	<string>let sepLine = UIView()
+sepLine.backgroundColor = .hexColor(hex: "&lt;#color#&gt;")
+view.addSubview(sepLine)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B57E6D6F-9E2B-4779-ABD9-184BAFA61A6C</string>
+	<string>FA3C1697-B5F2-464A-AFB8-DE2BCCDD89DB</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>OC PragmaMark注释</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>OC PragmaMark注释</string>
+	<string>init sep line</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
