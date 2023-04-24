@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>// &lt;#回调#&gt;
-var settingBlock: (() -&gt; Void)?
+var &lt;#block#&gt;: (() -&gt; &lt;#Void#&gt;)?
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C62750D1-86C6-43A2-A7CF-355240DD11D8</string>
